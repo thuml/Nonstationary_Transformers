@@ -3,19 +3,12 @@
 This is the codebase for the paper:
 [Non-stationary Transformers: Rethinking the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022.
 
-The performance of deep forecasting models can degenerate terribly on non-stationary real-world data in which the joint distribution changes over time. 
-
-Previous studies primarily adopt stationarization to reduce the non-stationarity of original series for better predictability. But the stationarized series deprived of inherent non-stationarity can be less instructive for real-world bursty events forecasting. This problem, termed over-stationarization in our paper, leads Transformers to generate indistinguishable temporal attentions for different series and impedes the predictive capability of deep models. 
-
-To tackle the dilemma between series predictability and model capability, we propose Non-stationary Transformers as a generic framewoframework consistently boosts mainstream Transformers by a large margin, which reduces 49.43% MSE on Transformer, 47.34% on Informer, and 46.89% on Reformer, making them the state-of-the-art in time series forecasting.
-
 
 ## Architecture
 
 ![arch](./figures/arch.png)
 
 ### Series Stationarization
-
 
 Series Stationarization unifies the statistics of each input and converts the output with restored statistics for better predictability. 
 
@@ -78,13 +71,13 @@ bash ./scripts/Weather_script/ns_Autoformer.sh
 
 ### Main Results
 
-As for multivariate forecasting results, the vanilla Transformer equipped with our framework consistently achieves state-of-the-art performance in all benchmarks and prediction lengths (Table 2). Notably, Non-stationary Transformer outperforms other deep models impressively on datasets characterized by high non-stationarity. With the prediction length of 336, we achieve 17% MSE reduction (0.509 → 0.421) on Exchange and 25% (2.669 → 2.010) on ILI compared to previous state-of-the-art results, which indicates that the potential of deep model is still constrained on non-stationary data. 
+For multivariate forecasting results, the vanilla Transformer equipped with our framework consistently achieves state-of-the-art performance in all six benchmarks and prediction lengths.
 
 ![arch](./figures/main_results.png)
 
 ### Model Promotion
 
-We also list the univariate results of two typical datasets with different stationarity in Table 3. Non-stationary Transformer still realizes remarkable forecasting performance.
+By applying our framework to four mainstream Attention-based models. Our method consistently improves the forecasting ability of different models. Overall, it achieves averaged 49.43% promotion on Transformer, 47.34% on Informer, 46.89% on Reformer and 10.57% on Autoformer, making each of them surpass previous state-of-the-art.
 
 ![arch](./figures/promotion.png)
 
