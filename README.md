@@ -30,7 +30,9 @@ pip install -r requirements.txt
 
 ## Training scripts
 
-We provide the experiment scripts and hyperparameters of all benchmark dataset under the folder `./scripts`.
+### Non-stationary Transformer
+
+We provide the Non-stationary Transformer experiment scripts and hyperparameters of all benchmark dataset under the folder `./scripts`.
 
 ```bash
 # Transformer with our framework
@@ -52,16 +54,16 @@ bash ./scripts/Exchange_script/Transformer.sh
 bash ./scripts/ETT_script/Transformer.sh
 ```
 
-### Promotion
+### Non-stationary Framework to promote other Attention-based models 
 
 We also provide the scripts for other Attention-based models (Informer, Autoformer), for example:
 
 ```bash
-# Informer promoted by our Non-stationary Transformers  framework
+# Informer promoted by our Non-stationary framework
 bash ./scripts/Exchange_script/Informer.sh
 bash ./scripts/Exchange_script/ns_Informer.sh
 
-# Autoformer promoted by our Non-stationary Transformers  framework
+# Autoformer promoted by our Non-stationary framework
 bash ./scripts/Weather_script/Autoformer.sh
 bash ./scripts/Weather_script/ns_Autoformer.sh
 ```
