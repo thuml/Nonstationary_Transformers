@@ -54,7 +54,7 @@ bash ./scripts/Exchange_script/Transformer.sh
 bash ./scripts/ETT_script/Transformer.sh
 ```
 
-### Non-stationary Framework to promote other Attention-based models 
+### Non-stationary framework to promote other Attention-based models 
 
 We also provide the scripts for other Attention-based models (Informer, Autoformer), for example:
 
