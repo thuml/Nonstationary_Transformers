@@ -13,6 +13,7 @@ This is the codebase for the paper:
 Series Stationarization unifies the statistics of each input and converts the output with restored statistics for better predictability. 
 
 ### De-stationary Attention
+
 De-stationary Attention is devised to recover the intrinsic non-stationary information into temporal dependencies by approximating distinguishable attentions learned from unstationarized series. 
 
 ## Showcases
@@ -25,11 +26,9 @@ De-stationary Attention is devised to recover the intrinsic non-stationary infor
 ```
 pip install -r requirements.txt
 ```
-2. You can obtain all the six benchmark datasets from [Google Drive](https://drive.google.com/file/d/1CC4ZrUD4EKncndzgy5PSTzOPSqcuyqqj/view?usp=sharing) or [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/b8f4a78a39874ac9893e/?dl=1).
+2. All the six benchmark datasets can be obtained from [Google Drive](https://drive.google.com/file/d/1CC4ZrUD4EKncndzgy5PSTzOPSqcuyqqj/view?usp=sharing) or [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/f/b8f4a78a39874ac9893e/?dl=1).
 
 ## Training scripts
-
-### 
 
 We provide the experiment scripts and hyperparameters of all benchmark dataset under the folder `./scripts`.
 
@@ -77,7 +76,7 @@ For multivariate forecasting results, the vanilla Transformer equipped with our 
 
 ### Model Promotion
 
-By applying our framework to four mainstream Attention-based models. Our method consistently improves the forecasting ability of different models. Overall, it achieves averaged 49.43% promotion on Transformer, 47.34% on Informer, 46.89% on Reformer and 10.57% on Autoformer, making each of them surpass previous state-of-the-art.
+By applying our framework to four mainstream Attention-based models. Our method consistently improves the forecasting ability. Overall, it achieves averaged **49.43%** promotion on Transformer, **47.34%** on Informer, **46.89%** on Reformer and **10.57%** on Autoformer, making each of them surpass previous state-of-the-art.
 
 ![arch](./figures/promotion.png)
 
