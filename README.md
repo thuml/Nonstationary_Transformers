@@ -78,10 +78,11 @@ For multivariate forecasting results, the vanilla Transformer equipped with our 
 
 ### Model Promotion
 
-By applying our framework to four mainstream Attention-based models. Our method consistently improves the forecasting ability. Overall, it achieves averaged **49.43%** promotion on Transformer, **47.34%** on Informer, **46.89%** on Reformer and **10.57%** on Autoformer, making each of them surpass previous state-of-the-art.
+By applying our framework to four mainstream Attention-based models. Our method consistently improves the forecasting ability. Overall, it achieves averaged **49.43%** promotion on Transformer, **47.34%** on Informer, **46.89%** on Reformer, **10.57%** on Autoformer, **5.17%** on ETSformer and **4.51%** on FEDformer, making each of them surpass previous state-of-the-art.
 
 ![arch](./figures/promotion.png)
 
+![arch](./figures/promotion2.png)
 
 ## Future Work
 
