@@ -105,7 +105,7 @@ If you find this repo useful, please cite our paper.
 @article{liu2022non,
   title={Non-stationary Transformers: Rethinking the Stationarity in Time Series Forecasting},
   author={Liu, Yong and Wu, Haixu and Wang, Jianmin and Long, Mingsheng},
-  journal={arXiv preprint arXiv:2205.14415},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2022}
 }
 ```
