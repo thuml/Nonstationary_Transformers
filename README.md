@@ -1,7 +1,7 @@
 # Non-stationary Transformers
 
 This is the codebase for the paper:
-[Non-stationary Transformers: Rethinking the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022.
+[Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022.
 
 
 ## Architecture
@@ -103,7 +103,7 @@ If you find this repo useful, please cite our paper.
 
 ```
 @article{liu2022non,
-  title={Non-stationary Transformers: Rethinking the Stationarity in Time Series Forecasting},
+  title={Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting},
   author={Liu, Yong and Wu, Haixu and Wang, Jianmin and Long, Mingsheng},
   booktitle={Advances in Neural Information Processing Systems},
   year={2022}
