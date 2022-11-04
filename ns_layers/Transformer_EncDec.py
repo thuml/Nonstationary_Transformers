@@ -64,7 +64,7 @@ class Encoder(nn.Module):
             # The reason why we only import delta for the first attn_block of Encoder
             # is to integrate Informer into our framework, where row size of attention of Informer is changing each layer
             # and inconsistent to the sequence length of the initial input,
-            # then no way to add delta to every row, so we make delta=0.0 (See our )
+            # then no way to add delta to every row, so we make delta=0.0 (See our Appendix E.2)
             # 
             for i, (attn_layer, conv_layer) in enumerate(zip(self.attn_layers, self.conv_layers)):
                 delta = delta if i==0 else None

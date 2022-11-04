@@ -130,11 +130,11 @@ class Model(nn.Module):
         seasonal_init = torch.cat([seasonal_init[:, -self.label_len:, :], zeros], dim=1)
         # enc
         enc_out = self.enc_embedding(x_enc, x_mark_enc)
-        enc_out, attns = self.encoder(enc_out, attn_mask=enc_self_mask)
+        enc_out, attns = self.encoder(enc_out, attn_mask=enc_self_mask, tau=tau, delta=delta)
         # dec
         dec_out = self.dec_embedding(seasonal_init, x_mark_dec)
         seasonal_part, trend_part = self.decoder(dec_out, enc_out, x_mask=dec_self_mask, cross_mask=dec_enc_mask,
-                                                 trend=trend_init)
+                                                 trend=trend_init, tau=tau, delta=None)
         # final
         dec_out = trend_part + seasonal_part
 
