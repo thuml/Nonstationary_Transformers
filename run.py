@@ -69,8 +69,8 @@ parser.add_argument('--devices', type=str, default='0,1,2,3', help='device ids o
 parser.add_argument('--seed', type=int, default=2021, help='random seed')
 
 # de-stationary projector params
-parser.add_argument('--p_hidden_dims', type=int, nargs='+', help='hidden layer dimensions of projector (List)')
-parser.add_argument('--p_hidden_layers', type=int, default=1, help='number of hidden layers in projector')
+parser.add_argument('--p_hidden_dims', type=int, nargs='+', default=[128, 128], help='hidden layer dimensions of projector (List)')
+parser.add_argument('--p_hidden_layers', type=int, default=2, help='number of hidden layers in projector')
 
 args = parser.parse_args()
 
