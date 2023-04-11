@@ -12,9 +12,9 @@ python -u run.py \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 1 \
-  --dec_in 1 \
-  --c_out 1 \
+  --enc_in 862 \
+  --dec_in 862 \
+  --c_out 862 \
   --des 'Exp' \
   --itr 1 \
   --gpu 4 &
@@ -33,9 +33,9 @@ python -u run.py \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 1 \
-  --dec_in 1 \
-  --c_out 1 \
+  --enc_in 862 \
+  --dec_in 862 \
+  --c_out 862 \
   --des 'Exp' \
   --itr 1 \
   --gpu 5 &
@@ -54,9 +54,9 @@ python -u run.py \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 1 \
-  --dec_in 1 \
-  --c_out 1 \
+  --enc_in 862 \
+  --dec_in 862 \
+  --c_out 862 \
   --des 'Exp' \
   --itr 1 \
   --gpu 6 &
@@ -75,9 +75,9 @@ python -u run.py \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 1 \
-  --dec_in 1 \
-  --c_out 1 \
+  --enc_in 862 \
+  --dec_in 862 \
+  --c_out 862 \
   --des 'Exp' \
   --itr 1 \
   --gpu 7 &
