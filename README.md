@@ -3,6 +3,7 @@
 This is the codebase for the paper:
 [Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022.
 
+:triangular_flag_on_post:**News** (2023.02) Non-stationary Transformer has been included in [[Time-Series-Library]](https://github.com/thuml/Time-Series-Library), which covers long- and short-term forecasting, imputation, anomaly detection, and classification.
 
 ## Architecture
 
@@ -96,6 +97,14 @@ We will keep equip the following models with our proposed Non-stationary Transfo
 - [ ] FEDformer
 - [ ] Pyraformer
 - [ ] ETSformer
+
+## Discussions
+
+There are already serveral discussions about our paper, we appreciate a lot for their valuable comments and efforts.
+
+* [Official] https://mp.weixin.qq.com/s/LkpkTiNBVBYA-FqzAdy4dw
+* [Zhihu] https://www.zhihu.com/question/24189178/answer/3064876852](https://zhuanlan.zhihu.com/p/535931701
+* [Openreview] https://openreview.net/forum?id=jsanMaAxZE](https://openreview.net/forum?id=ucNDIDRNjjv
 
 ## Citation
 
