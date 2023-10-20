@@ -96,11 +96,11 @@ We will keep equip the following models with our proposed Non-stationary Transfo
 - [x] Transformer
 - [x] Autoformer
 - [x] Informer
-- [ ] LogTrans
-- [ ] Reformer
-- [ ] FEDformer
+- [x] ETSformer
+- [x] Reformer
+- [x] FEDformer
 - [ ] Pyraformer
-- [ ] ETSformer
+- [ ] LogTrans
 
 ## Citation
 
