@@ -17,9 +17,14 @@ There are already serveral discussions about our paper, we appreciate a lot for 
 
 Series Stationarization unifies the statistics of each input and converts the output with restored statistics for better predictability. 
 
+![arch](./figures/ss.png)
+
 ### De-stationary Attention
 
 De-stationary Attention is devised to recover the intrinsic non-stationary information into temporal dependencies by approximating distinguishable attentions learned from unstationarized series. 
+
+![arch](./figures/da.png)
+
 
 ## Showcases
 
@@ -87,8 +92,6 @@ By applying our framework to six mainstream Attention-based models. Our method c
 
 ![arch](./figures/promotion.png)
 
-![arch](./figures/promotion2.png)
-
 ## Future Work
 
 We will keep equip the following models with our proposed Non-stationary Transformers framework:
@@ -99,8 +102,6 @@ We will keep equip the following models with our proposed Non-stationary Transfo
 - [x] ETSformer
 - [x] Reformer
 - [x] FEDformer
-- [ ] Pyraformer
-- [ ] LogTrans
 
 ## Citation
 
