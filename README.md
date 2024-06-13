@@ -1,7 +1,7 @@
 # Non-stationary Transformers
 
 This is the codebase for the paper:
-[Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022.
+[Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting](https://arxiv.org/abs/2205.14415), NeurIPS 2022. [Slides](https://cloud.tsinghua.edu.cn/f/8d6ce7b18d3c468190e7/), [Poster](https://cloud.tsinghua.edu.cn/f/6eea66909aa7465ca9a4/).
 
 :triangular_flag_on_post: **News** (2023.02) Non-stationary Transformer has been included in [[Time-Series-Library]](https://github.com/thuml/Time-Series-Library), which covers long- and short-term forecasting, imputation, anomaly detection, and classification.
 
