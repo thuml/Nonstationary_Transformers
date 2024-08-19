@@ -97,11 +97,15 @@ By applying our framework to six mainstream Attention-based models. Our method c
 We will keep equip the following models with our proposed Non-stationary Transformers framework:
 
 - [x] Transformer
-- [x] Autoformer
+- [x] iTransformer
 - [x] Informer
-- [x] ETSformer
-- [x] Reformer
+- [x] Autoformer
 - [x] FEDformer
+- [x] Crossformer
+- [x] Reformer
+- [x] ......
+
+Note: Series Stationarization as an architecture-free module has been widely applied for addressing non-stationarity in time series. Please refer to [time-series-library](https://github.com/thuml/Time-Series-Library/tree/main/models) for the implementationdetails.
 
 ## Citation
 
